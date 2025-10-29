@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv('/app/frontend/.env')
 
 # Configuration
-BACKEND_URL = os.getenv('EXPO_PUBLIC_BACKEND_URL', 'https://miluv-app-1.preview.emergentagent.com') + '/api'
+BACKEND_URL = os.getenv('EXPO_PUBLIC_BACKEND_URL', 'https://meetmate-11.preview.emergentagent.com') + '/api'
 print(f"Testing Backend URL: {BACKEND_URL}")
 
 # Test user data
